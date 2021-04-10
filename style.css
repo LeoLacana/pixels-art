@@ -1,0 +1,11 @@
+#color-palette {
+  height: 100px;
+  width: 421px;
+}
+
+.color {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  border: 1px solid black ;
+}
