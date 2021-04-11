@@ -1,5 +1,19 @@
-let elementColor = document.getElementsByClassName('color');
-elementColor[0].style.backgroundColor = 'black';
-elementColor[1].style.backgroundColor = 'red';
-elementColor[2].style.backgroundColor = 'blue';
-elementColor[3].style.backgroundColor = 'green';
+/*let elementPixel = document.getElementsByClassName('pixel');
+let elementPixelBox = undefined;
+for (let index = 0; index < elementPixel.length; index += 1){
+  for (let index = 0; index < elementPixel.length; index += 1){
+    elementPixelBox = document.createElement('div');
+    elementPixelBox.className = 'box';
+    elementPixel[index].appendChild(elementPixelBox);
+  }
+}*/
+
+let elementPixel = document.getElementById('pixel-board');
+let elementPixelBox = undefined;
+for (let index = 0; index < 25; index += 1){
+  elementPixelBox = document.createElement('div');
+  elementPixelBox.className = 'pixel';
+  elementPixel.appendChild(elementPixelBox);
+}
+
+console.log(elementPixel);
