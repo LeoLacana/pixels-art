@@ -1,8 +1,3 @@
-window.onload = function() {
-  let brushTool = document.createElement('div');
-  brushTool.className = 'selected';
-  brushTool.style.backgroundColor = 'black';
-}
 const elementPixel = document.getElementById('pixel-board');
 let elementPixelBox;
 for (let index = 0; index < 25; index += 1) {
@@ -10,3 +5,6 @@ for (let index = 0; index < 25; index += 1) {
   elementPixelBox.className = 'pixel';
   elementPixel.appendChild(elementPixelBox);
 }
+
+let elementBrushTool = document.getElementById('black');
+elementBrushTool.className += " selected";
