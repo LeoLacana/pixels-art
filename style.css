@@ -5,7 +5,7 @@ body {
   border: 3px solid black;
 }
 
-h1, #color-palette{
+h1 , #color-palette {
   text-align: center;
 }
 
@@ -34,8 +34,7 @@ h1, #color-palette{
 
 #pixel-board {
   text-align: center;
-  /*margin-top: 5px;*/
-  padding: 20px 250px 20px 250px;
+  padding: 20px 250px;
 }
 
 .pixel {
