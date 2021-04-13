@@ -1,3 +1,14 @@
+body {
+  margin: auto;
+  margin-top: 20px;
+  width: 750px;
+  border: 3px solid black;
+}
+
+h1, #color-palette{
+  text-align: center;
+}
+
 .color {
   display: inline-block;
   height: 40px;
@@ -22,8 +33,9 @@
 }
 
 #pixel-board {
-  margin-top: 5px;
-  width: 220px;
+  text-align: center;
+  /*margin-top: 5px;*/
+  padding: 20px 250px 20px 250px;
 }
 
 .pixel {
