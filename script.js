@@ -44,3 +44,11 @@ const elementClick = document.getElementsByClassName('pixel');
 for (let index = 0; index < elementClick.length; index += 1) {
   elementClick[index].addEventListener('click', colorise);
 }
+
+const elementLimpar = document.getElementById('clear-board');
+console.log(elementLimpar);
+elementLimpar.addEventListener('click', () => {
+  for (let index = 0; index < elementClick.length; index += 1) {
+    elementClick[index].id = 'white';
+  }
+});

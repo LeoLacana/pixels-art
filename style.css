@@ -32,6 +32,17 @@ h1 , #color-palette {
   background-color: green;
 }
 
+#white {
+  background-color: white;
+}
+
+#clear-board {
+  margin: auto;
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: center;
+}
+
 #pixel-board {
   text-align: center;
   padding: 20px 250px;
