@@ -16,24 +16,9 @@ h1 , #color-palette {
   border: 1px solid black;
 }
 
-#black {
-  background-color: black;
-}
-
-#red {
-  background-color: red;
-}
-
-#blue {
-  background-color: blue;
-}
-
-#green {
-  background-color: green;
-}
-
-#white {
-  background-color: white;
+#redimension {
+  margin: auto;
+  text-align: center;
 }
 
 #clear-board {
@@ -45,7 +30,7 @@ h1 , #color-palette {
 
 #pixel-board {
   text-align: center;
-  padding: 20px 250px;
+  padding-bottom: 20px;
 }
 
 .pixel {

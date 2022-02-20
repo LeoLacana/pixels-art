@@ -1,22 +1,67 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Pixel Art</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Pixel Art</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
   <h1 id="title">Paleta de Cores</h1>
   <div id="color-palette">
-    <div class = "color" id="black"></div>
-    <div class = "color" id="red"></div>
-    <div class = "color" id="blue"></div>
-    <div class = "color" id="green"></div>
+    <div class="color selected" id="color-1"></div>
+    <div class="color" id="color-2"></div>
+    <div class="color" id="color-3"></div>
+    <div class="color" id="color-4"></div>
+  </div><br>
+  <div id="redimension">
+    <input type='number' min='1' max="50" type="text" id="board-size">
+    <button id="generate-board">VQV</button>
   </div><br>
   <button id="clear-board">Limpar</button><br>
-  <div id = 'pixel-board'>
+  <div id='pixel-board'>
+    <div id='linha1'>
+      <div class='pixel'> </div>
+      <div class='pixel'> </div>
+      <div class='pixel'> </div>
+      <div class='pixel'> </div>
+      <div class='pixel'> </div>
+
+    </div>
+    <div id='linha2'>
+      <div class='pixel'> </div>
+      <div class='pixel'> </div>
+      <div class='pixel'> </div>
+      <div class='pixel'> </div>
+      <div class='pixel'> </div>
+    </div>
+    <div id='linha3'>
+      <div class='pixel'> </div>
+      <div class='pixel'> </div>
+      <div class='pixel'> </div>
+      <div class='pixel'> </div>
+      <div class='pixel'> </div>
+    </div>
+    <div id='linha4'>
+      <div class='pixel'> </div>
+      <div class='pixel'> </div>
+      <div class='pixel'> </div>
+      <div class='pixel'> </div>
+      <div class='pixel'> </div>
+    </div>
+    <div id='linha5'>
+      <div class='pixel'> </div>
+      <div class='pixel'> </div>
+      <div class='pixel'> </div>
+      <div class='pixel'> </div>
+      <div class='pixel'> </div>
+    </div>
+
+  </div>
   </div>
   <script type="text/javascript" src="script.js"></script>
 </body>
+
 </html>
