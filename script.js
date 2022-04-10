@@ -20,7 +20,6 @@ const removeAndAddClassSelected = ({ target }) => {
 };
 
 const pixelGenerator = (size, elementFather) => {
-  console.log(size);
   for (let i = 1; i <= size; i += 1) {
     const boxPixelElement = document.createElement('div');
     boxPixelElement.classList.add(`linha${size}`);
